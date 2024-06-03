@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(180, 167, 173);
+
+}
+div{
+    width: 80%;
+    box-sizing: border-box;
+    margin: auto;
+}
+.header  {
+background-color: rgb(125, 125, 136);
+height: 100px;
+padding: 10px;
+text-align: center;
+color: beige;
+
+}
+.nav {
+    background-color: rgb(58, 45, 45);
+    display: flex;
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color:blueviolet
+}
+.nav ul li a:hover {
+    color: rgb(50, 50, 99)
+}
+
+.main {
+    display: flex;
+    background-color: cadetblue;
+}
+.content {
+    width: 100%;
+    margin: 0;
+    background-color: azure;
+    padding: 10px;
+}
+.content .artikel{
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+    background-color: beige;
+    border-radius: 2px;
+    border: 2px;
+    border: 2px solid coral;
+    padding: 10px;
+    line-height: 1.3em;
+}
+
+.content .artikel .read {
+    color:azure;
+    border: 1px solid cornsilk;
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.content .artikel .read a {
+    color:black;
+}
+.sidebar  {
+    justify-content: left;
+    border: 1px solid lightcyan;
+    background-color: white;
+    width: 40%;
+    margin: 0;
+    padding: 20px;
+
+
+}
+
+.sidebar h4{
+    text-align: left;
+
+}
+
+.sidebar ul li {
+    list-style: none;
+    line-height: 3em;
+
+}
+
+.sidebar a {
+    color: rgb(153, 32, 32);
+    text-decoration: none;
+    text-align: left;
+
+}
+
+.sidebar h{
+    text-align: left;
+
+}
+
+.footer {
+    background-color: rgb(108, 108, 212);
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
